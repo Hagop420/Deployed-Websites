@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="icon" href="https://i.dlpng.com/static/png/6933300_preview.png">
+<!-- <link rel="stylesheet" href="../css/matrix_MQ.css"> -->
+   <title>Movies || Matrix Trilogy </title>
+   <style>     
+   
+   @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+   @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  color: #fff;
+  display: flex;
+  font-family: 'Fuzzy Bubbles', cursive;
+
+  flex-direction: column;
+  height: 100vh;
+  text-shadow: 0.6rem 0.6rem 20px red;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header::before {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  opacity: 1;
+  width: 100%;
+  content: '';
+  top: 0;
+  left: 0;
+  background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+}
+
+section {
+  display: flex;
+
+  background-color: lime;
+}
+.arrow i {
+  font-size: 80px;
+  display: block;
+  margin: 100px -20%;
+  padding-right: 40px;
+}
+section h3 {
+  text-shadow: -0.2rem 0.2rem 25px blue;
+  padding: 5% 5%;
+}
+section > .animation_img {
+  justify-content: center;
+  align-items: center;
+  margin: 130px 10px;
+  margin-right: 30px;
+  box-shadow: 0.2rem 0.2rem 10px black;
+  height: 130px;
+  object-fit: cover;
+}
+
+section > .animation_img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(-1.5); /* Safari 3-8 */
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 1s all ease-in;
+}
+.bgd_chg > h3 {
+  text-align: center;
+  align-items: center;
+}
+
+section + .bgd_chg {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.boxes {
+  /* bottom:80px; */
+  /* min-width:100vw; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #000;
+  font-weight: bolder;
+  padding: 4% 5%;
+  /* padding:.4% 2%; */
+  margin: auto 5%;
+}
+.boxes input[type='submit'] {
+  padding: 5px 20px;
+  margin-bottom: 50px;
+  background-color: lime;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: -50px;
+  border: 0;
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  border: 0;
+}
+.boxes input[type='submit']:hover {
+  color:deeppink
+}
+
+.boxes p {
+  font-size: 18px;
+  /* width:100%; */
+  text-align: center;
+}
+.boxes:nth-child(1) {
+  box-shadow: 0.1rem 0.2rem 50px #000;
+}
+.boxes:nth-child(2) {
+  box-shadow: 0.1rem 0.2rem 50px #000;
+}
+.boxes:nth-child(3) {
+  box-shadow: 0.1rem 0.2rem 50px #000;
+}
+
+#the_matrix_resurecction_flexbox {
+  display: flex;
+  height: 50vh;
+
+  background-color: greenyellow;
+}
+#the_matrix_resurecction_flexbox button{
+   width:90%;
+   justify-content: center;
+   align-items: center;
+   
+   border:0;
+   text-align: center;
+   padding:10px;
+   font-weight: bold;
+   cursor:pointer;
+   
+}
+
+
+#the_matrix_resurecction_flexbox button:hover{
+  background-color: #ccc;
+  color:#333
+}
+#the_matrix_resurecction_flexbox img {
+  height: 460px;
+}
+#the_matrix_resurecction_flexbox form {
+  display: flex;
+
+  flex-direction: column;
+}
+#the_matrix_resurecction_flexbox label {
+  display: flex;
+  font-family: 'Fuzzy Bubbles', cursive;
+  padding: 10px;
+}
+#the_matrix_resurecction_flexbox input {
+  width: 300%;
+  margin: 10px;
+  border:0;
+  padding: 10px 10px;
+}
+
+#the_matrix_resurecction_flexbox input:focus{
+   outline-color:lightgreen;
+}
+
+/* footer */
+
+.footer {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+footer i {
+  color: lime;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer i:hover {
+  opacity: 0.7;
+}
+
+.footer > p {
+  color: #fff;
+  font-family: 'Fuzzy Bubbles', cursive;
+
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+header a{
+ text-shadow: none;
+  padding:6px 30px;
+  border-radius: 2px;
+  border:0;
+  background-color: aquamarine;
+  color: #000;
+  font-weight: 700;
+}
+header a:hover{
+  opacity: .9;
+  color:yellow;
+  background-color: black;
+}
+
+/* icons8 */
+header a img{
+  height: 18px;
+display: none;
+
+}
+
+
+
+.btn_pc{
+  /* animation-fill-mode: forwards;
+
+  animation-name:btn_animation_padding_chg ;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s; */
+
+
+      /* SAME AS ABOVE */
+
+animation: btn_animation_padding_chg forwards 5s ease-in-out;
+
+}
+
+
+.js_add_btn_img_animation{
+  /* animation-name:btn_animation ;
+  animation-duration:5s ;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; */
+
+  /* SAME AS ABOVE */
+  animation: btn_animation 5s ease-out;
+
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes btn_animation{
+  to{
+    
+padding: 0 0 0 15px; 
+
+
+}
+}
+@keyframes btn_animation_padding_chg{
+  to{
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 400px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 80px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 97vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 370px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 206vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top:50px ;
+    padding: 5px;
+    display:block;
+    margin: 30px auto
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (max-height: 360px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 120px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 80vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 227vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 370px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 396vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 500px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 120px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 117vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 370px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 196vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 512px) and (max-width: 569px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 140px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 90vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 247vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 370px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 566vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 700px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 120px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 70vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 207vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 370px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 366vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 800px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 110px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 60vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 265vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 570px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 426vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 00px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 140px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 80vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 265vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 570px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 426vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 769px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 160px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 115vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 570px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 196vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 720px) and (max-width: 720px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 160px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 70vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 165vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 450px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 286vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 653px) and (max-width: 654px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 80px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 80vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 325vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 450px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 586vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 5px;
+    display: block;
+    margin: 50px auto;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 280px) and (max-width: 281px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 80px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: none;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 95vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 160px;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 15% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 246vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    padding: 5px;
+    display: block;
+    margin: 50px auto;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 769px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 160px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: block;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 120vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 60vh;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10% 23%;
+    margin: auto 1%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: column;
+    height: 226vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 10px;
+
+    background-color: aquamarine;
+    width: 30%;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+@media (min-width: 1020px) {
+  header::before {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    content: '';
+    top: 0;
+    opacity: 1;
+    left: 0;
+    background-image: url('https://data.nssmag.com/images/galleries/18043/code-matrix.jpg');
+  }
+  header > p {
+    width: 30%;
+  }
+  header h1,
+  header p {
+    font-size: 17px;
+    width: 90%;
+  }
+
+  section > .animation_img {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10.3px;
+    margin-right: 19.9px;
+    box-shadow: 0.2rem 0.2rem 10px black;
+    height: 160px;
+    object-fit: cover;
+  }
+  h3 {
+    padding-top: 50px;
+    font-size: 28px;
+  }
+  section {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .boxes input[type='submit'],
+  .boxes p,
+  .boxes i {
+    margin: auto;
+  }
+
+  section > img {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .arrow i {
+    display: block;
+  }
+
+  #the_matrix_resurecction_flexbox {
+    display: block;
+    height: 140vh;
+  }
+  #the_matrix_resurecction_flexbox img {
+    height: 60vh;
+    width: 100vw;
+    object-fit: cover;
+    margin-top: 0px;
+    background-position: center center;
+  }
+  .boxes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 4% 7%;
+    margin: auto 4%;
+  }
+
+  .boxes p {
+    width: 100px;
+    margin: auto;
+  }
+  section + .bgd_chg {
+    background-color: silver;
+
+    flex-direction: row;
+    height: 116vh;
+    justify-content: center;
+  }
+
+  #the_matrix_resurecction_flexbox label {
+    display: flex;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox button {
+    border: 0;
+    margin-top: 50px;
+    padding: 10px;
+
+    background-color: aquamarine;
+    width: 30%;
+  }
+  #the_matrix_resurecction_flexbox form {
+    padding: 10px;
+  }
+  #the_matrix_resurecction_flexbox input {
+    width: 92.9%;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}
+
+   </style>
+</head>
+<body>
+   <header>
+      <h1>The Matrix </i>
+
+      </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sed similique aut dolor obcaecati quia neque esse sequi impedit illo.</p>
+      <a href="#scroll_here">
+     Click for Movie Schedules
+     <img src="https://img.icons8.com/offices/30/000000/chevron-right.png"/>
+</a>
+      
+   </header>
+
+   <section class='text-capitalize'>
+
+      <h3>The Matrix Trilogy </h3>
+         
+<div class="arrow">
+   <i class=" bi bi-arrow-return-right"></i>
+
+</div>      
+
+      
+
+      </div>
+      <img class='animation_img' src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="The Matrix(1999)">
+      <img class='animation_img' src="https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="The Matrix Reloaded(2003)">
+      <img class='animation_img' src="https://flxt.tmsimg.com/assets/p33157_p_v13_aa.jpg" alt="The Matrix Revolution(2003)">
+   </section>
+
+
+
+   <section id="the_matrix_resurecction_flexbox">
+      <img id='scroll_here' src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/matrix-resurrections.jpg" alt="Matrix Resurecctions">
+
+      <form action="">
+         <label for="name">Name</label>
+         <input type="text" name="name" id="name" placeholder="Name here...">
+         <label for="last_name">Last Name</label>
+         <input type="text" name="name" id="name" placeholder="Last Name here...">
+         <label for="ticket_buy">Amount of tickets</label>
+         <input type="number" name="ticket_buy" id="ticket_buy" placeholder="Amount of tickets...">
+        <button>Movie Schedules</button>
+         <!-- <input type="submit" value="Movie Schedules"> -->
+
+
+      </form>
+   </section>
+
+
+   <!-- <h3 class='text-capitalize'>about the trilogy</h3> -->
+
+
+   <section class='bgd_chg'>
+
+
+
+      <div class="boxes">
+         <i class="bi bi-film">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ipsa.
+               
+            </p>
+            <a href="">
+            <input type="submit" value="Buy package">
+            </a>
+         </i>
+      </div>
+      
+        <div class="boxes">
+         <i class="bi bi-badge-3d">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ipsa.</p>
+            <a href="">
+               <input type="submit" value="Buy package">
+               </a>
+
+         </i>
+
+        </div>
+        <div class="boxes">
+         <i class="bi bi-film">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ipsa.</p>
+            <a href="">
+               <input type="submit" value="Buy package">
+               </a>
+         </i>
+
+        </div>
+     
+   </section>
+
+
+
+
+
+   <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <p>Rotten Tomatoes &copy; Copyright</p>
+    </footer>
+
+
+
+    <script>
+      document.querySelector('header a').addEventListener('mouseover' , ()=>{
+        document.querySelector('header a img').style.display='inline'
+        document.querySelector('header img').classList.add('js_add_btn_img_animation')
+        document.querySelector('header a').classList.add('btn_pc')
+        // js_add_btn_img_animation
+      })
+
+
+      document.querySelector('header a').addEventListener('mouseout' , ()=>{
+        document.querySelector('header a img').style.display='none';
+        // document.querySelector('header button').classList.remove('btn_pc')
+      })
+    </script>
+</body>
+</html>

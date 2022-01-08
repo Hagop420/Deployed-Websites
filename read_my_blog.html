@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Raleway:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Raleway:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   
+   <link rel="stylesheet" href="./css/utility_class.css">
+   <link rel="stylesheet" href="./css/style_Main.css">
+   <link rel="stylesheet" href="./css/media_queries.css">
+   
+   
+   <title>Document</title>
+   <style>
+
+
+   </style>
+</head>
+<body class=blog_pg_body>
+   <header class="hero green_txt">
+      <nav id='navbar' class='blog_navbar top'>
+
+         <h1 class="logo">
+            <i class="green_txt fas fa-book-open"><span class="green_txt">Edge</span></i>
+            Ledger
+         </h1>
+         <ul>
+           <li><a href="./main_edge.html">Home</a></li>
+           <li><a href="./main_edge.html#about">About</a></li>
+           <li><a href="./main_edge.html#contact">Cases</a></li>
+           <li><a href="./main_edge.html#b1_take">main_edge.html</a></li>
+           <li><a href="./main_edge.html#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <!-- <div class="overlay"></div> -->
+     <section class='main_img blog_pg_main_img'>
+      <div class="content">
+         <h1 class='main_blog_txt'>Blog</h1>
+      
+
+      
+      
+      
+      </div>
+     </section>
+   </header>
+
+   <section class="flex_parent">
+      <div class="row blog-1 colum_blog_1_img">
+         <div class="column">
+           <div class="column-1 blog_img_1">
+              <img src="./img/blog1.jpg" alt="">
+             
+           </div>
+         </div>
+         <div class="column">
+            <div class="column-2 blog_column1" id='about'>
+         
+               
+               <h2>Blog Post One
+               </h2>
+                <br>
+                  <h3 class='bi bi-person-fill'>Posted by <em>Kyle bilzarian</em>
+                  | December 16 2021</h3>
+               
+
+               <p class='opp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias illum, animi earum ea amet sequi reiciendis sit corporis sunt iusto cupiditate odio maxime adipisci cumque eligendi nemo dolore id itaque?
+
+               </p>
+               <a class='blog1_about_a' href="./blog.html#about">Read More</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="flex_parent">
+      <div class="row blog-1 blog_rev_pg">
+         <div class="column">
+           <div class="column-1 blog_p2_img ">
+              <img src="./img/blog2.jpg" alt="">
+             
+           </div>
+         </div>
+         <div class="column">
+            <div class="column-2 blog_column2" id='about'>
+         
+               
+               <h2>Blog Post Two
+               </h2>
+                <br>
+                  <h3 class='bi bi-person-fill'>Posted by <em>Jane Smith</em>
+                  | January 10 2018</h3>
+               
+
+               <p class='opp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias illum, animi earum ea amet sequi reiciendis sit corporis sunt iusto cupiditate odio maxime adipisci cumque eligendi nemo dolore id itaque?
+
+               </p>
+               <a class='blog_2_btn' href="./blog.html#b1_take">Read More</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <section class="flex_parent">
+      <div class="row blog-1">
+         <div class="column">
+           <div class="column-1 blog_post3 ">
+              <img src="./img/blog3.jpg" alt="">
+             
+           </div>
+         </div>
+         <div class="column">
+            <div class="column-2 blog_column1" id='about'>
+         
+               
+               <h2>Contact the Company
+               </h2>
+                <br>
+                  <h3 class='bi bi-person-fill'>Posted by <em>John Doe (President of E.D)</em>
+                  | March 25 2020</h3>
+               
+
+               <p class='opp'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias illum, animi earum ea amet sequi reiciendis sit corporis sunt iusto cupiditate odio maxime adipisci cumque eligendi nemo dolore id itaque?
+
+               </p>
+               <a class='blog1_about_b' href="./blog.html#contact">Read More</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <footer class="flex-footer ">
+      <div class="flex_icons blog_pg_footer">
+         <a href='https://www.facebook.com/' target='_blank' class="bi bi-facebook"></a>
+      <a href='https://twitter.com/Jmoney420S' target='_blank'  class="bi bi-twitter"></a>
+      <a href='https://www.instagram.com/hagop_almadjian/?hl=en' target='_blank'  class="bi bi-instagram"></a>
+      <a href='https://www.linkedin.com/feed/' class="bi bi-linkedin" target='_blank' ></a>
+      <p>Created by <strong>&copy; Hagop Almadjian</strong></p>
+     </div>
+      
+   </footer>
+   </body>
+
+
+
+
+      <script>
+         
+   document.querySelector('nav h1').style.cursor='pointer'
+document.querySelector('nav h1').addEventListener('click', () => {
+   location.href='./main_edge.html'
+})
+
+
+
+onscroll = () => {
+   const nav_animation=document.getElementById('navbar')
+   let scrolled = false;
+   if (pageYOffset > 100) {
+      nav_animation.classList.remove('top')
+      if (!scrolled) {
+         nav_animation.style.tranform='translate(-70px)'
+      }
+   } else {
+      nav_animation.classList.add('top')
+
+   }
+}
+
+
+
+      </script>

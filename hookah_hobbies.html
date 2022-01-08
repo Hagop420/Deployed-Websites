@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Shisha Flavors</title>
+   
+   <link rel="icon" href="https://cdn.shopify.com/s/files/1/0015/9068/9838/products/nysa_hose_amber_1_1000x.png?v=1589293504">
+   <link rel="stylesheet" href="../css/lightbox.css">
+   <link rel="stylesheet" href="../css/shisha_fl.css">
+   <style>
+         @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+
+      :root{
+         --primary-clr:#f4f4f4;
+         --secondary-clr:black;
+         --third-clr:yellow;
+         --fourth-clr:red;
+        --text-aln:center;
+        --padding-1:1rem;
+        --padding-2:2rem;
+        --fonts-arial:Arial, Helvetica, sans-serif;
+        --txt-aln:center
+
+      }
+      header{
+         position:relative
+      }
+      *{
+         margin:0;
+         padding:0
+      }
+      body{
+         background-color: #333;
+      }
+      header img{
+         color:var(--fourth-clr)
+      }
+     
+      
+      h2{
+         padding:var(--padding-2);
+         margin:0 -10px;
+         color:var(--fourth-clr);
+           font-family: 'Fuzzy Bubbles', cursive;
+           font-size: 30px;
+
+      }
+      a{
+         
+         text-decoration: none;
+      }
+      
+      .shopping_btn{
+         display:block;
+         margin: 10% auto;
+       
+
+      }
+      
+      .shopping_btn button{
+         padding:var(--padding-1) 50px;
+         border-radius: 10px;
+         font-size:14px;
+         background:var(--secondary-clr);
+         color:gold
+      }
+                           .shopping_btn button:hover{
+                              background:#333;
+                              cursor:pointer
+                           }
+      header>h1{
+         background-color: var(--secondary-clr);
+         color:fuchsia;
+         text-align: var(--text-aln);
+         width:100%;
+         font-family: var(--fonts-arial);
+         font-size: 1.9rem;
+         
+         font-weight: bolder;
+         padding:var(--padding-1);
+         border-bottom: solid 3px var(--fourth-clr);
+
+      }
+
+      .box-1{
+         display:flex;
+         /* background-color: var(--secondary-clr); */
+         max-width:700px;
+         padding:var(--padding-1);
+         margin:var(--padding-2) auto;
+         border-radius: 5px;
+
+         background: linear-gradient(110deg, limegreen 60%, firebrick 60%)
+
+         /* text-align: var(--txt-aln); */
+      }
+      .box-1>p{
+         max-width:200px;
+         /* width:30%; */
+         text-align: var(--txt-aln);
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 16px;
+         margin:auto 90px;
+         /* background-color: var(--secondary-clr); */
+         color:var(--third-clr);
+         padding:var(--padding-2)
+      }
+
+      .box-1 img{
+         height:260px;
+         margin: 70px -190px;
+      }
+
+      h3{
+         color:aqua;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      
+
+      .color_box_2{
+        background:green
+      }
+      .color_box_2 img{
+         height:300px
+      }
+      .color_box_3{
+         background: darkcyan
+      }
+      .color_box_3 img{
+         height:300px
+      }
+      .color_box_4{
+         background:steelblue
+      }
+
+      .color_box_5 img{
+        padding-left: 30px;
+      }
+
+      .color_box_5{
+         background: sandybrown;
+      }
+
+
+      aside{
+         /* height: 8%; */
+  min-width: 70px;
+  position: fixed;
+  margin-top:500px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  
+  padding: 10px;
+  text-align:var(--txt-aln) ;
+ 
+
+      }
+      aside p{
+         color:darkcyan;
+         font-family: 'Fuzzy Bubbles', cursive;
+           font-size: 20px;
+
+      }
+
+      aside:hover{
+      cursor:pointer;
+      color:fuchsia;
+
+background: linear-gradient(110deg, blue 60%, #ccc 60%);
+
+}
+
+
+
+
+
+
+.red{
+   animation-duration: 5s;
+   animation-name: slow_zoom_1;
+   
+}
+.blue{
+   animation-duration: 5s;
+   animation-name: slow_zoom_2;
+   
+}
+.or{
+   animation-duration: 5s;
+   animation-name: slow_zoom_3;
+   
+}
+
+
+
+
+
+
+@keyframes slow_zoom_1{
+   to{
+     
+
+     background-color: red;
+   }
+}
+
+@keyframes slow_zoom_2{
+   to{
+     
+
+     background-color: blue;
+   }
+}
+@keyframes slow_zoom_3{
+   to{
+     background-color: orange;
+   }
+}
+
+
+
+
+
+
+   </style>
+</head>
+<body>
+   <header>
+      <h1> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+         width="100" height="100"
+         viewBox="0 0 172 172"
+         style=" fill:#000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e74c3c"><path d="M123.66174,13.4375l2.01563,16.125h-13.6947c2.83617,5.20789 8.74475,8.92106 15.71033,10.2146v31.83533c-0.86389,0.35309 -1.68584,0.79287 -2.46179,1.30176l-11.52161,-9.81567l0.31494,0.2887c-5.93751,-5.93751 -15.27476,-7.51284 -23.19018,-3.73731c-3.95771,1.88778 -7.46095,5.42532 -9.21204,10.23035c-1.75109,4.80503 -1.83529,10.64496 -0.11023,17.44251c2.63374,10.37651 6.03939,23.01402 6.83948,34.34961c0.80009,11.33558 -0.97277,20.61632 -7.22266,26.14538c-15.68893,13.87949 -48.18193,-0.4713 -43.5564,-25.91968c2.35152,-12.93336 11.49353,-23.58074 20.87012,-33.95593c9.3766,-10.37519 19.53162,-20.51303 19.53162,-34.19214c0,-8.86875 -6.16381,-14.54915 -11.36939,-16.71814c-5.20558,-2.16899 -10.13061,-2.09436 -10.13061,-2.09436h-2.05762c-1.52847,-1.70888 -3.71218,-2.68621 -6.00488,-2.6875c-2.51745,0.00075 -4.89007,1.17734 -6.41431,3.18091l-28.52319,2.19409v5.375l28.52844,2.19409c1.52312,2.0021 3.89345,3.17853 6.40906,3.18091c2.28904,-0.00428 4.46836,-0.98134 5.99439,-2.6875h2.06811c0,0 3.13746,0.07463 5.99439,1.26501c2.85692,1.19039 4.75561,2.22874 4.75561,6.79749c0,7.86927 -7.31897,16.54439 -16.75488,26.98523c-9.43591,10.44084 -20.45015,22.61256 -23.47363,39.2417c-6.33409,34.84837 37.61078,56.81108 61.2561,35.89282c9.87511,-8.73618 11.73197,-22.08185 10.82348,-34.95325c-0.90849,-12.8714 -4.55047,-26.02146 -7.14392,-36.23926c-1.34406,-5.2962 -1.02979,-8.86253 -0.20996,-11.11218c0.81984,-2.24966 2.06592,-3.41524 3.74255,-4.21496c3.35327,-1.59946 8.83497,-0.48729 10.95996,1.63769l0.14697,0.15222l12.31946,10.4928c-0.38984,1.38532 -0.60364,2.84984 -0.60364,4.36719h29.5625c0,-1.43073 -0.20321,-2.81088 -0.55115,-4.12573l7.62158,-7.62158l-7.07568,-7.07043l-6.22534,6.22534c-0.97747,-0.72691 -2.04176,-1.33163 -3.17566,-1.79517v-31.83533c6.96547,-1.29329 12.87228,-5.00506 15.71033,-10.2146h-13.6947l2.01563,-16.125zM120.97424,90.03125v25.44202c-9.60513,4.30806 -16.27722,13.54823 -16.27722,24.27673c0,8.80156 4.49657,16.59531 11.40613,21.5h33.92444c6.91225,-4.90469 11.40613,-12.69844 11.40613,-21.5c0,-6.65425 -2.56711,-12.73451 -6.80798,-17.42151c-3.999,-4.01244 -8.4293,-7.33074 -17.52649,-9.43774c2.81113,-1.0535 5.54162,-1.40619 8.0625,-1.3175v-17.51074z"></path></g></g></svg> Shisha Flavors</h1>
+         </header>
+
+
+         <div class="box-1 MQ_bgd">
+            <h2>
+              1) Al Fakher
+               </h2>
+       <a href="https://cdn10.bigcommerce.com/s-i4e9d/products/1507/images/2607/Al-Faker_50g_Carton_Peach__47116.1578325449.1280.1280.png?c=2" data-lightbox='cases' data-title='Al Fakher Pipe Tobacco'>
+       <img src='https://cdn10.bigcommerce.com/s-i4e9d/products/1507/images/2607/Al-Faker_50g_Carton_Peach__47116.1578325449.1280.1280.png?c=2' alt="Shisha molasses">
+       
+       </a>
+      <a href="#">
+       <!-- <h3>Arabic Translation</h3> -->
+       </a>
+       <p>Al Fakher Tobacco is often known as the best hookah tobacco brand on the market. A world famous brand, Al Fakher Shisha is manufactured in the United Arab Emirates (UAE), near the heart of the Shisha. We at South Smoke are proud to carry this authentic brand of hookah flavored tobacco.
+
+         <a class='shopping_btn' target='_blank' href="https://www.alfakher.com/en-us">
+            <button>Shop Al Fakher</button>
+         </a>
+       </p>
+
+
+          
+    </div>
+
+
+
+
+
+         <div class="box-1 color_box_2">
+            <h2>
+              1) Fumari
+               </h2>
+       <a href="https://cdn.shopify.com/s/files/1/0481/9392/9377/products/Citrus-Mint-with-package_2000x_71b13309-8a47-483a-85b1-58b8b33e096f_1024x1024@2x.png?v=1611189534" data-lightbox='cases' data-title='Fumari Pipe Tobacco'>
+       <img src='https://cdn.shopify.com/s/files/1/0481/9392/9377/products/Citrus-Mint-with-package_2000x_71b13309-8a47-483a-85b1-58b8b33e096f_1024x1024@2x.png?v=1611189534' alt="Shisha molasses">
+       
+       </a>
+      
+       <p>Fumari Hookah Tobacco Flavors are expertly made in small batches using nothing but premium ingredients and packed in flavor lock bags. With each puff, you will notice that every flavor of hookah tobacco is long-lasting and truly tasting, providing an authentic smoking experience that will uplift your sense of taste.
+
+         <a class='shopping_btn' href="https://www.fumari.com/" target='_blank'>
+            <button>Shop Fumari</button>
+         </a>
+       </p>
+
+    </div>
+
+
+         <div class="box-1 color_box_3">
+            <h2>
+              1) Mazaya
+               </h2>
+       <a href="https://martendo.net/Images/ProductImages/17243/%D9%85%D8%B2%D8%A7%D9%8A%D8%A7%20%D8%A8%D8%B7%D9%8A%D8%AE010101.jpg" data-lightbox='cases' data-title='Mazaya Pipe Tobacco'>
+       <img src='https://cdn.shopify.com/s/files/1/1990/0327/products/MT-250g_Strawberry_500_530x@2x.png?v=1524158180' alt="Shisha molasses">
+       
+       </a>
+      <a href="#">
+       <!-- <h3>Arabic Translation</h3> -->
+       </a>
+       <p>CocoNara is proud to offer Tobacco Shisha Mazaya. A rich flavored hookah that produces thick white clouds. Mazaya Tobacco comes in packs of 250gm and offers more than 30 delicious flavors to choose from.
+
+         <a class='shopping_btn' target='_blank' href="http://mazayamolasses.com/en-us/">
+            <button>Shop Mazaya</button>
+         </a>
+       </p>
+    </div>
+
+
+         <div class="box-1 color_box_4">
+            <h2>
+              1) Al-Waha
+               </h2>
+       <a href="https://cdn.shopify.com/s/files/1/0033/0560/3117/products/arctic-blueberry-200g-alwaha-Tobacco-Rose-Hookah_Rosehookah.com_Now-available-to-order-online-from-Rose-Hookah-www.Rosehookah_1_500x.png?v=1593430390" data-lightbox='cases' data-title='Al-Waha Pipe Tobacco'>
+       <img src='https://cdn.shopify.com/s/files/1/0033/0560/3117/products/arctic-blueberry-200g-alwaha-Tobacco-Rose-Hookah_Rosehookah.com_Now-available-to-order-online-from-Rose-Hookah-www.Rosehookah_1_500x.png?v=1593430390' alt="Shisha molasses">
+       
+       </a>
+   
+       <p>Al-Waha Tobacco is a very popular brand of tobacco with Middle Eastern flavors that has been creating Elite Tobacco since 1972. ... aL-Waha Tobacco offers a mix of unique and classic shisha flavors in 50g, 200g and 1kg packages.
+
+         <a class='shopping_btn' target='_blank' href="https://5starhookah.com/collections/al-waha-shisha">
+            <button>Shop Al Waha</button>
+         </a>
+       </p>
+    </div>
+         <div class="box-1 color_box_5">
+            <h2>
+              1) AFzal
+               </h2>
+       <a href="http://cdn.shopify.com/s/files/1/1052/6896/products/image_1024x1024_b1a602eb-704b-440e-ba00-5ff24ef8043b_1024x1024.jpg?v=1613097624" data-lightbox='cases' data-title='Afzal Pipe Tobacco'>
+       <img src='https://s3.us-west-1.wasabisys.com/nexavix/ecommerce/sacramento/5cgeYEb2-41680.png' alt="Shisha molasses">
+       
+       </a>
+      
+       <p>The finest blend of Indian tobacco leaves, molasses and natural flavors from around the world that are known for their texture, softness and flavour. This brand of hookah has more than 40 hookah flavors that are categorized into five flavors such as spicy, fruity, cold, sweet, and beverage.
+
+         <a class='shopping_btn' target='_blank' href="https://5starhookah.com/collections/afzal-shisha">
+            <button>Shop Afzal</button>
+         </a>
+       </p>
+    </div>
+   
+
+
+
+
+<aside>
+   <a target='_blank' href="./arabic_translation.html">
+      <p>Arabic Translation</p>
+</a>
+</aside>
+
+
+
+
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.min.js"
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+   crossorigin="anonymous"></script>
+
+
+      <script>
+         !function(a,b){"function"==typeof define&&define.amd?define(["jquery"],b):"object"==typeof exports?module.exports=b(require("jquery")):a.lightbox=b(a.jQuery)}(this,function(a){function b(b){this.album=[],this.currentImageIndex=void 0,this.init(),this.options=a.extend({},this.constructor.defaults),this.option(b)}return b.defaults={albumLabel:"Image %1 of %2",alwaysShowNavOnTouchDevices:!1,fadeDuration:600,fitImagesInViewport:!0,imageFadeDuration:600,positionFromTop:50,resizeDuration:700,showImageNumberLabel:!0,wrapAround:!1,disableScrolling:!1,sanitizeTitle:!1},b.prototype.option=function(b){a.extend(this.options,b)},b.prototype.imageCountLabel=function(a,b){return this.options.albumLabel.replace(/%1/g,a).replace(/%2/g,b)},b.prototype.init=function(){var b=this;a(document).ready(function(){b.enable(),b.build()})},b.prototype.enable=function(){var b=this;a("body").on("click","a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]",function(c){return b.start(a(c.currentTarget)),!1})},b.prototype.build=function(){if(!(a("#lightbox").length>0)){var b=this;a('<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay"></div><div id="lightbox" tabindex="-1" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""/><div class="lb-nav"><a class="lb-prev" aria-label="Previous image" href="" ></a><a class="lb-next" aria-label="Next image" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>').appendTo(a("body")),this.$lightbox=a("#lightbox"),this.$overlay=a("#lightboxOverlay"),this.$outerContainer=this.$lightbox.find(".lb-outerContainer"),this.$container=this.$lightbox.find(".lb-container"),this.$image=this.$lightbox.find(".lb-image"),this.$nav=this.$lightbox.find(".lb-nav"),this.containerPadding={top:parseInt(this.$container.css("padding-top"),10),right:parseInt(this.$container.css("padding-right"),10),bottom:parseInt(this.$container.css("padding-bottom"),10),left:parseInt(this.$container.css("padding-left"),10)},this.imageBorderWidth={top:parseInt(this.$image.css("border-top-width"),10),right:parseInt(this.$image.css("border-right-width"),10),bottom:parseInt(this.$image.css("border-bottom-width"),10),left:parseInt(this.$image.css("border-left-width"),10)},this.$overlay.hide().on("click",function(){return b.end(),!1}),this.$lightbox.hide().on("click",function(c){"lightbox"===a(c.target).attr("id")&&b.end()}),this.$outerContainer.on("click",function(c){return"lightbox"===a(c.target).attr("id")&&b.end(),!1}),this.$lightbox.find(".lb-prev").on("click",function(){return 0===b.currentImageIndex?b.changeImage(b.album.length-1):b.changeImage(b.currentImageIndex-1),!1}),this.$lightbox.find(".lb-next").on("click",function(){return b.currentImageIndex===b.album.length-1?b.changeImage(0):b.changeImage(b.currentImageIndex+1),!1}),this.$nav.on("mousedown",function(a){3===a.which&&(b.$nav.css("pointer-events","none"),b.$lightbox.one("contextmenu",function(){setTimeout(function(){this.$nav.css("pointer-events","auto")}.bind(b),0)}))}),this.$lightbox.find(".lb-loader, .lb-close").on("click",function(){return b.end(),!1})}},b.prototype.start=function(b){function c(a){d.album.push({alt:a.attr("data-alt"),link:a.attr("href"),title:a.attr("data-title")||a.attr("title")})}var d=this,e=a(window);e.on("resize",a.proxy(this.sizeOverlay,this)),this.sizeOverlay(),this.album=[];var f,g=0,h=b.attr("data-lightbox");if(h){f=a(b.prop("tagName")+'[data-lightbox="'+h+'"]');for(var i=0;i<f.length;i=++i)c(a(f[i])),f[i]===b[0]&&(g=i)}else if("lightbox"===b.attr("rel"))c(b);else{f=a(b.prop("tagName")+'[rel="'+b.attr("rel")+'"]');for(var j=0;j<f.length;j=++j)c(a(f[j])),f[j]===b[0]&&(g=j)}var k=e.scrollTop()+this.options.positionFromTop,l=e.scrollLeft();this.$lightbox.css({top:k+"px",left:l+"px"}).fadeIn(this.options.fadeDuration),this.options.disableScrolling&&a("body").addClass("lb-disable-scrolling"),this.changeImage(g)},b.prototype.changeImage=function(b){var c=this,d=this.album[b].link,e=d.split(".").slice(-1)[0],f=this.$lightbox.find(".lb-image");this.disableKeyboardNav(),this.$overlay.fadeIn(this.options.fadeDuration),a(".lb-loader").fadeIn("slow"),this.$lightbox.find(".lb-image, .lb-nav, .lb-prev, .lb-next, .lb-dataContainer, .lb-numbers, .lb-caption").hide(),this.$outerContainer.addClass("animating");var g=new Image;g.onload=function(){var h,i,j,k,l,m;f.attr({alt:c.album[b].alt,src:d}),a(g),f.width(g.width),f.height(g.height),m=a(window).width(),l=a(window).height(),k=m-c.containerPadding.left-c.containerPadding.right-c.imageBorderWidth.left-c.imageBorderWidth.right-20,j=l-c.containerPadding.top-c.containerPadding.bottom-c.imageBorderWidth.top-c.imageBorderWidth.bottom-c.options.positionFromTop-70,"svg"===e&&(f.width(k),f.height(j)),c.options.fitImagesInViewport?(c.options.maxWidth&&c.options.maxWidth<k&&(k=c.options.maxWidth),c.options.maxHeight&&c.options.maxHeight<j&&(j=c.options.maxHeight)):(k=c.options.maxWidth||g.width||k,j=c.options.maxHeight||g.height||j),(g.width>k||g.height>j)&&(g.width/k>g.height/j?(i=k,h=parseInt(g.height/(g.width/i),10),f.width(i),f.height(h)):(h=j,i=parseInt(g.width/(g.height/h),10),f.width(i),f.height(h))),c.sizeContainer(f.width(),f.height())},g.src=this.album[b].link,this.currentImageIndex=b},b.prototype.sizeOverlay=function(){var b=this;setTimeout(function(){b.$overlay.width(a(document).width()).height(a(document).height())},0)},b.prototype.sizeContainer=function(a,b){function c(){d.$lightbox.find(".lb-dataContainer").width(g),d.$lightbox.find(".lb-prevLink").height(h),d.$lightbox.find(".lb-nextLink").height(h),d.$overlay.focus(),d.showImage()}var d=this,e=this.$outerContainer.outerWidth(),f=this.$outerContainer.outerHeight(),g=a+this.containerPadding.left+this.containerPadding.right+this.imageBorderWidth.left+this.imageBorderWidth.right,h=b+this.containerPadding.top+this.containerPadding.bottom+this.imageBorderWidth.top+this.imageBorderWidth.bottom;e!==g||f!==h?this.$outerContainer.animate({width:g,height:h},this.options.resizeDuration,"swing",function(){c()}):c()},b.prototype.showImage=function(){this.$lightbox.find(".lb-loader").stop(!0).hide(),this.$lightbox.find(".lb-image").fadeIn(this.options.imageFadeDuration),this.updateNav(),this.updateDetails(),this.preloadNeighboringImages(),this.enableKeyboardNav()},b.prototype.updateNav=function(){var a=!1;try{document.createEvent("TouchEvent"),a=!!this.options.alwaysShowNavOnTouchDevices}catch(a){}this.$lightbox.find(".lb-nav").show(),this.album.length>1&&(this.options.wrapAround?(a&&this.$lightbox.find(".lb-prev, .lb-next").css("opacity","1"),this.$lightbox.find(".lb-prev, .lb-next").show()):(this.currentImageIndex>0&&(this.$lightbox.find(".lb-prev").show(),a&&this.$lightbox.find(".lb-prev").css("opacity","1")),this.currentImageIndex<this.album.length-1&&(this.$lightbox.find(".lb-next").show(),a&&this.$lightbox.find(".lb-next").css("opacity","1"))))},b.prototype.updateDetails=function(){var a=this;if(void 0!==this.album[this.currentImageIndex].title&&""!==this.album[this.currentImageIndex].title){var b=this.$lightbox.find(".lb-caption");this.options.sanitizeTitle?b.text(this.album[this.currentImageIndex].title):b.html(this.album[this.currentImageIndex].title),b.fadeIn("fast")}if(this.album.length>1&&this.options.showImageNumberLabel){var c=this.imageCountLabel(this.currentImageIndex+1,this.album.length);this.$lightbox.find(".lb-number").text(c).fadeIn("fast")}else this.$lightbox.find(".lb-number").hide();this.$outerContainer.removeClass("animating"),this.$lightbox.find(".lb-dataContainer").fadeIn(this.options.resizeDuration,function(){return a.sizeOverlay()})},b.prototype.preloadNeighboringImages=function(){if(this.album.length>this.currentImageIndex+1){(new Image).src=this.album[this.currentImageIndex+1].link}if(this.currentImageIndex>0){(new Image).src=this.album[this.currentImageIndex-1].link}},b.prototype.enableKeyboardNav=function(){this.$lightbox.on("keyup.keyboard",a.proxy(this.keyboardAction,this)),this.$overlay.on("keyup.keyboard",a.proxy(this.keyboardAction,this))},b.prototype.disableKeyboardNav=function(){this.$lightbox.off(".keyboard"),this.$overlay.off(".keyboard")},b.prototype.keyboardAction=function(a){var b=a.keyCode;27===b?(a.stopPropagation(),this.end()):37===b?0!==this.currentImageIndex?this.changeImage(this.currentImageIndex-1):this.options.wrapAround&&this.album.length>1&&this.changeImage(this.album.length-1):39===b&&(this.currentImageIndex!==this.album.length-1?this.changeImage(this.currentImageIndex+1):this.options.wrapAround&&this.album.length>1&&this.changeImage(0))},b.prototype.end=function(){this.disableKeyboardNav(),a(window).off("resize",this.sizeOverlay),this.$lightbox.fadeOut(this.options.fadeDuration),this.$overlay.fadeOut(this.options.fadeDuration),this.options.disableScrolling&&a("body").removeClass("lb-disable-scrolling")},new b});
+//# sourceMappingURL=lightbox.min.map
+</script>
+      </script>
+   
+    <script>
+
+
+
+
+      
+
+
+
+   document.querySelector(' body').addEventListener('mouseover' , ()=>{
+      document.querySelector('.MQ_bgd').classList.add('red') ;
+     
+   })
+   document.querySelector('.box-1:nth-child(3)').addEventListener('mouseover' , ()=>{
+      document.querySelector('.box-1:nth-child(3)').classList.add('blue') ;
+      document.querySelector('.box-1:nth-child(3)').style.animationIterationCount='infinite'
+     
+   })
+   document.querySelector('.box-1:nth-child(4)').addEventListener('mouseover' , ()=>{
+      document.querySelector('.box-1:nth-child(4)').classList.add('or') ;
+      document.querySelector('.box-1:nth-child(4)').style.animationIterationCount='infinite'
+
+     
+   })
+
+
+</script>
+</body>
+</html>
